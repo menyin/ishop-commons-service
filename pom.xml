@@ -18,11 +18,28 @@
     <url>http://www.cny.com</url>
     <inceptionYear>2020-Now</inceptionYear>
 
-    <!--<dependencies>-->
-        <!--<dependency>-->
-            <!--<groupId>com.cny</groupId>-->
-            <!--<artifactId>ishop-commons-mapper</artifactId>-->
-            <!--<version>${project.parent.version}</version>-->
-        <!--</dependency>-->
-    <!--</dependencies>-->
+    <dependencies>
+        <dependency>
+            <groupId>com.cny</groupId>
+            <artifactId>ishop-commons-mapper</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- Swagger2 Begin -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+        <!-- Swagger2 End -->
+    </dependencies>
 </project>
